@@ -1,18 +1,14 @@
-**📊 Netflix Watch-Time & Subscription Tracker**
+# Netflix Catalog Analysis & Viewing Habits Intelligence
 
-A SQL-based project simulating a Netflix-style database to analyze user behavior. It tracks user watch history, genres, subscription details, and viewing time. Key insights include total watch time by genre, identifying binge-watchers, and predicting churn risk.
+An exploratory data analysis and database simulation analyzing catalog composition, duration distributions, genre clustering, and subscriber retention signals across Netflix video assets.
 
-🔧 Features:
+## Analytics Scope
 
-User & title watch history tracking
+- Content Distribution: Proportional breakdown between Feature Films and Episodic Series across global release years.
+- Country Production Matrices: Geospatial analysis of content generation hubs and regional licensing agreements.
+- Rating & Genre Profiling: Classification of target demographics across age ratings and thematic categories.
+- Interactive Visualizations: Generated Plotly charts preserved in `iframe_figures/` for standalone HTML embedding.
 
-Genre-based watch-time analysis
+## Running Analysis
 
-Top binge-watchers identification
-
-Churn prediction for inactive users
-
-TV Shows vs Movies comparison
-
-
-📂 Tools: MySQL, Plotly, Python (optional), Jupyter Notebook
+Open and execute `Netflix_Data_Visualization_(Simple_Project).ipynb` in Jupyter Notebook or VS Code with Python and Plotly installed.
